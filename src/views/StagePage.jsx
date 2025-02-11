@@ -15,7 +15,7 @@ export default function StagePage(){
 
     const{ stageId } = useParams(); //Get stageId from Link
     const [searchTerm, setSearchTerm]= useState('');
-    const [selectedCategory, setSelectedCategory] = useState('');
+    const [selectedCategory, setSelectedCategory] = useState('all');
 
 
 
